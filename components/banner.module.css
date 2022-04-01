@@ -1,6 +1,7 @@
-/** By default, this is a mobile breakpoint **/
 .container {
   margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
 }
 
 .title {
@@ -17,7 +18,7 @@
 }
 
 .title2 {
-  display: block;
+  /* display: block; */
   color: var(--text-purple);
 }
 
